@@ -1,0 +1,356 @@
+@font-face {
+    font-family: Montserrat-Regular;
+      src: url('/fonts/Montserrat-Regular.ttf');
+  }
+  
+  @font-face {
+    font-family: Montserrat-Medium;
+      src: url('/fonts/Montserrat-Medium.ttf');
+  }
+  
+  @font-face {
+    font-family: Montserrat-SemiBold;
+      src: url('/fonts/Montserrat-SemiBold.ttf');
+  }
+  
+  @font-face {
+    font-family: Montserrat-Light;
+      src: url('/fonts/Montserrat-Light.ttf');
+  }
+  
+  @font-face {
+    font-family: Seravek;
+      src: url('/fonts/Seravek.ttf');
+  }
+  
+  @font-face {
+    font-family: Gobold;
+      src: url('/fonts/Gobold-High-Bold-Italic.ttf');
+  }
+  
+  body {
+      background-color: #353535;
+      color: #D9C7A7;
+      font-family: Montserrat-Regular, Montserrat-Medium, Montserrat-SemiBold, Montserrat-Light, Seravek, Gobold;
+      -webkit-font-smoothing: antialiased;
+  }
+  
+  ul {
+      list-style-type: none;
+      font-weight: 800;
+      color: #9B9B9B;
+  }
+  
+  .active {
+      color: #D9C7A7;
+  }
+  
+  div {
+      z-index: 5;
+  }
+  
+  p {
+      z-index: 5;
+  }
+  
+  button {
+      z-index: 5;
+  }
+  
+  .mainSection{
+      height: 100vh;
+      width: 100vw;
+  }
+  
+  .cloudBG{
+      background: url("storage/img/mclouds.png");
+      background-repeat: no-repeat;
+      background-position: center bottom;
+      background-size: 100% 35%;
+      background-color: #353535;
+  }
+  
+  .darkFilter{
+      height: 100%;
+      width: 100%;
+      position: absolute;
+      z-index: 2;
+      background-color: rgba(46,46,46,0.7);
+  }
+  
+  .brandLogo{
+      max-width: 40%;
+      max-height: 35%;
+      margin: 2%;
+  }
+  
+  .brandText{
+      font-family: Montserrat-Medium;
+      font-size: 1.8em;
+      letter-spacing: 0.3em;
+  }
+  
+  .linkText{
+      font-family: Montserrat-Semibold;
+      font-size: 0.7em;
+      letter-spacing: 0.2em;
+  }
+  
+  .scrollText{
+      font-family: Montserrat-Semibold;
+      font-size: 0.7em;
+      letter-spacing: 0.1em;
+  }
+  
+  .scrollIcon{
+      height: 20%;
+  }
+  
+  .mvCont{
+      height: 100%;
+  }
+  
+  .mvBox{
+      background-color: #393939;
+      border-radius: 20px;
+      margin: 3%;
+      padding: 5%;
+      height: 90%;
+  }
+  
+  .headerText{
+      font-family: Montserrat-Semibold;
+      font-size: 1.2em;
+      letter-spacing: 0.2em;
+  }
+  
+  .descText{
+      font-family: Montserrat-Light;
+      color: #F3EFEB;
+      font-size: 0.9em;
+  }
+  
+  .approachText{
+      font-family: Montserrat-Regular;
+      font-size: 0.7em;
+      letter-spacing: 0.2em;
+  }
+  
+  .productBG{
+      max-width: 70%;
+      height: 70%;
+      position: absolute;
+      z-index: 2;
+      left: 0;
+      border-radius: 10px;
+  }
+  
+  .portfolioBG{
+      max-width: 70%;
+      height: 70%;
+      right: 0;
+      position: absolute;
+      z-index: 2;
+      border-radius: 10px;
+  }
+  
+  .portItemBG{
+      max-width: 70%;
+      height: 70%;
+      right: 0;
+      position: absolute;
+      z-index: 1;
+  }
+  
+  .pHeader{
+      font-family: Montserrat-Semibold;
+      font-size: 2.2em;
+      letter-spacing: 0.2em;
+      line-height: 1em;
+  }
+  
+  .pSubheader{
+      font-family: Montserrat-Medium;
+      font-size: 0.9em;
+      letter-spacing: 0.2em;
+      line-height: 1em;
+  }
+  
+  .pButton{
+      font-family: Montserrat-Semibold;
+      background-color: #393939;
+      color: #D9C7A7;
+      letter-spacing: 0.1em;
+      font-size: 0.7em;
+      border-radius: 10px;
+      border: 1px solid #D9C7A7;
+  }
+  
+  .box{
+      background-color: #393939;
+      border-radius: 15px;
+  }
+  
+  .approachIcon{
+      max-height: 5vh;
+      width: 10vw;
+  }
+  
+  .serviceIcon{
+      max-height: 40%;
+      max-width: 70%;
+  }
+  
+  .contactHeader{
+      font-family: Montserrat-Semibold;
+      font-size: 1.6em;
+      letter-spacing: 0.2em;
+  }
+  
+  .contactFooter{
+      font-family: Montserrat-Regular;
+      font-size: 0.5em;
+      letter-spacing: 0.1em;
+  }
+  
+  .contactButton{
+      font-family: Montserrat-Semibold;
+      background-color: #393939;
+      color: #D9C7A7;
+      font-size: 0.7em;
+      letter-spacing: 0.2em;
+      width: 70%;
+      height: 19%;
+      border-radius: 15px;
+  }
+  
+  .contactIcon{
+      max-width: 100%;
+  }
+  
+  .formText{
+      font-family: Montserrat-Regular;
+      font-size: 0.8em;
+      letter-spacing: 0.2em;
+  }
+  
+  .formBox{
+      background-color: #393939;
+      color: #D9C7A7;
+      font-size: 0.7em;
+      letter-spacing: 0.2em;
+      width: 80%;
+      height: 11%;
+      border-radius: 15px;
+      border: 0;
+  }
+  
+  .itemHeader{
+      font-family: Montserrat-Regular;
+      font-size: 1.8em;
+      letter-spacing: 0.1em;
+  }
+  
+  .itemDesc{
+      font-family: Montserrat-Light;
+      color: #606060;
+      font-size: 0.9em;
+      line-height: 1.8em;
+  }
+  .navButton{
+    background: none;
+    border: none;
+    color: #D9C7A7;
+ 
+}
+
+.navButton:hover 
+{
+     text-decoration:none; 
+     cursor:pointer;  
+     color: inherit;
+}
+  
+  @media only screen and (min-width: 576px) {
+      
+      .brandText{
+          font-size: 2em;
+          letter-spacing: 0.2em;
+      }
+  
+      .brandLogo{
+          max-width: 30%;
+          max-height:30%;
+      }
+      
+      .linkText{
+          font-size: 1.2em;
+          letter-spacing: 0.2em;
+      }
+      
+      .scrollText{
+          font-size: 0.7em;
+          letter-spacing: 0.1em;
+      }
+  
+      .scrollIcon{
+          height: 20%;
+      }
+      
+      .rotateLeft{
+          transform: rotate(-270deg);
+          position: absolute;
+          left: 0;
+          top: 45vh;
+      }
+  
+      .rotateRight{
+          transform: rotate(270deg);
+          position: absolute;
+          right: 0;
+          top: 45vh;
+      }
+      
+  }
+  
+  @media only screen and (min-width: 992px) {
+      .brandText{
+          font-size: 2.5em;
+          letter-spacing: 0.3em;
+      }
+  
+      .brandLogo{
+          max-width: 20%;
+          max-height:20%;
+      }
+  
+      .linkText{
+          font-size: 1.5em;
+          letter-spacing: 0.2em;
+      }
+  
+      .scrollText{
+          font-size: 0.8em;
+          letter-spacing: 0.1em;
+      }
+  
+      .scrollIcon{
+          height: 25%;
+      }
+      
+      .rotateLeft{
+          transform: rotate(-270deg);
+          position: absolute;
+          left: 0;
+          top: 45vh;
+      }
+  
+      .rotateRight{
+          transform: rotate(270deg);
+          position: absolute;
+          right: 0;
+          top: 45vh;
+      }
+  }
+  
+  

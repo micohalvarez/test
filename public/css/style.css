@@ -1,0 +1,512 @@
+@font-face {
+    font-family: Montserrat-Regular;
+      src: url('/fonts/Montserrat-Regular.ttf');
+  }
+  
+  @font-face {
+    font-family: Montserrat-Medium;
+      src: url('/fonts/Montserrat-Medium.ttf');
+  }
+  
+  @font-face {
+    font-family: Montserrat-SemiBold;
+      src: url('/fonts/Montserrat-SemiBold.ttf');
+  }
+  
+  @font-face {
+    font-family: Montserrat-Light;
+      src: url('/fonts/Montserrat-Light.ttf');
+  }
+  
+  @font-face {
+    font-family: Seravek;
+      src: url('/fonts/Seravek.ttf');
+  }
+  
+  @font-face {
+    font-family: Gobold;
+      src: url('/fonts/Gobold-High-Bold-Italic.ttf');
+  }
+  
+  body {
+      background-color: #353535;
+      color: #D9C7A7;
+      font-family: Montserrat-Regular, Montserrat-Medium, Montserrat-SemiBold, Montserrat-Light, Seravek, Gobold;
+      -webkit-font-smoothing: antialiased;
+  }
+  
+  ul {
+      list-style-type: none;
+      font-weight: 800;
+      color: #9B9B9B;
+  }
+  
+  .active {
+      color: #D9C7A7;
+  }
+  
+  .itemNumber.active{
+      color: white;
+  }
+  div {
+      z-index: 5;
+  }
+  
+ .backgroundImageFilter{
+    filter: brightness(40%);
+    position: fixed;
+    height: 80vh;
+    margin-top: 10vh;
+    width: 50vw;
+    right: 10vw;
+    z-index:-1 !important;
+    border-radius:3%;
+   
+  }
+  
+  p {
+      z-index: 5;
+  }
+  
+  button {
+      z-index: 5;
+  }
+  
+  .mainSection{
+      height: 100vh;
+  }
+
+  .test{
+      z-index:-1;
+     
+  }
+  #test1{
+    z-index:-1;
+
+}
+ 
+  .cloudBG{
+      background: url("/storage/img/clouds.png");
+      background-repeat: no-repeat;
+      background-position: center bottom;
+      background-size: 100% 35%;
+      background-color: #353535;
+  }
+  
+  .fixed-cloudBG{
+      background: url("/storage/img/clouds.png");
+      background-repeat: no-repeat;
+      background-position: center bottom;
+      background-size: 100% 35%;
+      background-attachment: fixed;
+      background-color: #353535;
+      height: 100vh;
+      width: 100vw;
+      position: fixed;
+      z-index: -1;
+  }
+  
+  .darkFilter{
+      height: 100%;
+      width: 100%;
+      position: absolute;
+      z-index: 2;
+      background-color: rgba(46,46,46,0.7);
+  }
+  
+  .darkFilterFixed{
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 2;
+    background-color: rgba(46,46,46,0.7);
+}
+  
+  .fixed-left{
+      position: fixed;
+      width: 10%;
+      height: 100vh;
+      z-index: 5;
+  }
+  
+  .brandText{
+      font-family: Montserrat-Medium;
+      font-size: 2em;
+      letter-spacing: 0.2em;
+  }
+  
+  .brandLogo{
+      max-width: 20%;
+  }
+  
+  .linkText{
+      font-family: Montserrat-SemiBold;
+      font-size: 1.2em;
+      letter-spacing: 0.2em;
+  }
+  
+  .scrollText{
+      font-family: Montserrat-SemiBold;
+      font-size: 0.7em;
+      letter-spacing: 0.1em;
+  }
+  
+  .scrollIcon{
+      height: 20%;
+  }
+  
+  .rotateLeft{
+      transform: rotate(-270deg);
+      position: absolute;
+      left: -4vw;
+      top: 45vh;
+  }
+  
+  .rotateRight{
+      transform: rotate(270deg);
+      position: absolute;
+      right: -4vw;
+      top: 45vh;
+  }
+    
+  .rotateLeftIndex{
+    transform: rotate(-270deg);
+    position: absolute;
+    left: -4vw;
+    top: 20vh;
+}
+
+.rotateRightIndex{
+    transform: rotate(270deg);
+    position: absolute;
+    right: -4vw;
+    top: 20vh;
+}
+  .mvCont{
+      height: 100%;
+  }
+  
+  .mvBox{
+      background-color: #393939;
+      border-radius: 20px;
+      margin: 3%;
+      padding: 5%;
+      height: 90%;
+  }
+  
+  .headerText{
+      font-family: Montserrat-SemiBold;
+      font-size: 1.3em;
+      letter-spacing: 0.2em;
+  }
+  
+  .descText{
+      font-family: Montserrat-Light;
+      color: #F3EFEB;
+      font-size: 0.9em;
+  }
+  
+  .productBG{
+      max-width: 70%;
+      height: 70%;
+      position: absolute;
+      z-index: 2;
+  }
+  
+  .portfolioBG{
+      max-width: 70%;
+      height: 70%;
+      right: 0;
+      position: absolute;
+      z-index: 2;
+  }
+  
+  .portItemBG{
+      max-width: 70%;
+      height: 70%;
+      right: 0;
+      position: absolute;
+      z-index: 1;
+  }
+  
+  .pHeader{
+      font-family: Montserrat-Semibold;
+      font-size: 2.1em;
+      letter-spacing: 0.2em;
+      line-height: 1em;
+  }
+  
+  .pSubheader{
+      font-family: Montserrat-Light;
+      font-size: 1em;
+      letter-spacing: 0.3em;
+      line-height: 1em;
+  }
+  
+  .pButton{
+      font-family: Montserrat-Semibold;
+      background-color: #393939;
+      color: #D9C7A7;
+      letter-spacing: 0.1em;
+      font-size: 0.7em;
+      padding: 1.1em;
+      padding-left: 1.5em;
+      padding-right: 1.5em;
+      border-radius: 18px;
+      border: 1px solid #D9C7A7;
+  }
+  
+  .box{
+      background-color: #393939;
+      border-radius: 15px;
+  }
+  
+  .approachIcon{
+      max-width: 40%;
+      max-height: 40%;
+  }
+  
+  .approachBox{
+      background-color: #393939;
+      border-radius: 15px;
+  }
+  
+  .approachText{
+      font-family: Montserrat-Medium;
+      font-size: 0.9em;
+      letter-spacing: 0.2em;
+  }
+  
+  .serviceIcon{
+      height: 30vh;
+      max-width: 85%;
+  }
+  
+  .serviceBox{
+      background-color: #393939;
+      border-radius: 20px;
+      margin: 3%;
+      padding: 5%;
+  }
+  
+  .serviceText{
+      font-family: Montserrat-Medium;
+      font-size: 1em;
+      letter-spacing: 0.2em;
+  }
+  .fixed-right{
+    position: fixed;
+    width: 10%;
+    height: 100vh;
+    right: 0;
+    z-index: 5;
+}
+  .contactHeader{
+      font-family: Montserrat-Semibold;
+      font-size: 1.6em;
+      letter-spacing: 0.2em;
+  }
+  
+  .contactButton{
+      font-family: Montserrat-Semibold;
+      background-color: #393939;
+      color: #D9C7A7;
+      font-size: 0.7em;
+      letter-spacing: 0.2em;
+      width: 70%;
+      height: 19%;
+      border-radius: 15px;
+  }
+  
+  .contactIcon{
+      max-width: 100%;
+  }
+  
+  .footerText{
+      font-family: Montserrat-Regular;
+      font-size: 0.5em;
+      letter-spacing: 0.1em;
+  }
+  
+  .formText{
+      font-family: Montserrat-Regular;
+      font-size: 1.2em;
+      letter-spacing: 0.2em;
+  }
+  
+  .formInput{
+      font-family: Montserrat-Regular;
+      font-size: 0.9em;
+      letter-spacing: 0.1em;
+      background-color: #393939;
+      color: #D9C7A7;
+      border-radius: 15px;
+      border: 0;
+      width: 65%;
+      padding: 2%;
+  }
+  
+  .formBox{
+      background-color: #393939;
+      color: #D9C7A7;
+      font-size: 0.7em;
+      letter-spacing: 0.2em;
+      width: 80%;
+      height: 11%;
+      border-radius: 15px;
+      border: 0;
+  }
+  
+  .itemHeader{
+      font-family: Montserrat-Regular;
+      font-size: 2.5em;
+      letter-spacing: 0.1em;
+  }
+  
+  .itemDesc{
+      font-family: Montserrat-Light;
+      color: #606060;
+      font-size: 1em;
+      line-height: 1.8em;
+  }
+  
+  .itemNumber{
+      font-family: Montserrat-SemiBold;
+      font-weight: bolder;
+      letter-spacing: 0.1em;
+      line-height: 1.8;
+      color: #C0BCB8;
+  }
+  
+  .wheelBG{
+      position: absolute;
+      height: 35vh;
+      right: 8%;
+      top: 8%;
+      z-index: 1;
+  }
+  
+  .rightNumberBG{
+      font-family: Gobold;
+      position: absolute;
+      font-size: 10em;
+      line-height: 1em;
+      color: #F3EFEB;
+      opacity: 0.3;
+      right: 3%;
+      bottom: 0;
+      z-index: 1;
+  }
+  
+  .leftNumberBG{
+      font-family: Gobold;
+      position: absolute;
+      font-size: 10em;
+      line-height: 1em;
+      color: #F3EFEB;
+      opacity: 0.3;
+      left: 3%;
+      bottom: 0;
+      z-index: 1;
+  }
+
+  .leftNum{
+    font-family: Gobold;
+    position: relative;
+    font-size: 10em;
+    line-height: 1em;
+    color: #F3EFEB;
+    opacity: 0.075;
+    left: 13.2%;
+    bottom: -34.5%;
+    z-index: 0;
+}
+
+.rightNum{
+    font-family: Gobold;
+    position: relative;
+    font-size: 10em;
+    line-height: 1em;
+    color: #F3EFEB;
+    opacity: 0.075;
+    right: -30%;
+    bottom: -32%;
+    z-index: 0;
+}
+
+.navButton{
+    background: none;
+    border: none;
+    color: #D9C7A7;
+ 
+}
+
+.navButton:hover 
+{
+     text-decoration:none; 
+     cursor:pointer;  
+     color: inherit;
+}
+.wrapper {
+    height: 100% !important;
+    height: 100%;
+    margin: 0 auto; 
+    overflow: hidden;
+}
+  
+  @media only screen and (min-width: 992px) {
+      body{
+          font-size: 1.1rem;
+      }
+      
+      .pHeader{
+          font-size: 2.5em;
+      }
+      
+      .pSubheader{
+          font-size: 1.3em;
+      }
+  }
+  
+  
+  @media only screen and (min-width: 1300px) {
+      body{
+          font-size: 1.3rem;
+      }
+  }
+  
+  @media only screen and (min-width: 2400px) {
+      body{
+          font-size: 1.8rem;
+      } 
+      
+      .serviceText{
+          padding-top: 10%;
+          padding-bottom: 10%;
+      }
+      
+      .pHeader{
+          font-size: 3em;
+      }
+      
+      .pSubheader{
+          font-size: 1.6em;
+      }
+      
+      .itemHeader{
+          font-size: 2.9em;
+          letter-spacing: 0.1em;
+      }
+  
+      .itemDesc{
+          color: #606060;
+          font-size: 1.2em;
+          line-height: 1.8em;
+      }
+      
+      .footerText{
+          font-size: 0.6em;
+      }
+  }
+  
+  

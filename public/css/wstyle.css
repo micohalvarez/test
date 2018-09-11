@@ -1,0 +1,221 @@
+@font-face {
+    font-family: Montserrat-Regular;
+      src: url('/fonts/Montserrat-Regular.ttf');
+  }
+  
+  @font-face {
+    font-family: Montserrat-Medium;
+      src: url('/fonts/Montserrat-Medium.ttf');
+  }
+  
+  @font-face {
+    font-family: Montserrat-SemiBold;
+      src: url('/fonts/Montserrat-SemiBold.ttf');
+  }
+  
+  @font-face {
+    font-family: Montserrat-Light;
+      src: url('/fonts/Montserrat-Light.ttf');
+  }
+  
+  @font-face {
+    font-family: Seravek;
+      src: url('/fonts/Seravek.ttf');
+  }
+  
+  @font-face {
+    font-family: Gobold;
+      src: url('/fonts/Gobold-High-Bold-Italic.ttf');
+  }
+
+body {
+    background-color: #474747;
+    color: #D9C7A7;
+    -webkit-font-smoothing: antialiased;
+}
+
+section {
+    height: 100vh;
+    width: 100%;
+}
+
+ul {
+    list-style-type: none;
+    font-weight: 800;
+    color: #9B9B9B;
+}
+
+.mainSection{
+    background-color: #353535;
+}
+
+.cloudMainSection{
+    background: url("/storage/img/clouds.png");
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: contain;
+    background-color: #353535;
+}
+
+.cloudTabSection{
+    background: url("img/clouds.png");
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: contain;
+    background-color: #2E2E2E;
+}
+
+.portfolioBG{
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 2;
+}
+
+.productBG{
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 2;
+}
+
+.productExtra{
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 2;
+}
+
+.brandText{
+    font-size: 2.5em;
+    letter-spacing: 0.4em;
+}
+
+.linkText{
+    font-size: 1.5em;
+    letter-spacing: 0.2em;
+}
+
+.headerText{
+    font-size: 1.7em;
+    letter-spacing: 0.2em;
+}
+
+.contactHeaderText{
+    font-size: 2em;
+    letter-spacing: 0.4em;
+}
+
+.descText{
+    color: #F3EFEB;
+    font-size: 1.2em;
+    line-height: 2em;
+
+}
+
+.approachText{
+    font-size: 1.2em;
+    letter-spacing: 0.2em;
+}
+
+.pHeader{
+    font-size: 2.8em;
+    letter-spacing: 0.2em;
+}
+
+.pSubheader{
+    font-size: 1.8em;
+    letter-spacing: 0.2em;
+}
+
+.pNum{
+    z-index: 1;
+    color: rgba(255, 255, 255, 0.2);
+    font-size: 12em;
+}
+
+.contactButton{
+    background-color: #393939;
+    color: #D9C7A7;
+    letter-spacing: 0.2em;
+    width: 35%;
+    height: 20%;
+    border-radius: 15px;
+}
+
+.pButton{
+    width: 25%;
+    height: 8%;
+    background-color: #393939;
+    color: #D9C7A7;
+    letter-spacing: 0.1em;
+    font-size: 0.8em;
+    border-radius: 15px;
+    border: 1px solid #D9C7A7;
+}
+
+.contactForm{
+    background-color: #393939;
+    color: #D9C7A7;
+    width: 60%;
+    height: 20%;
+    border-radius: 15px;
+}
+
+.noBorder {
+    border: 0;
+}
+
+.rotateLeft{
+    transform: rotate(-270deg);
+    position: absolute;
+    left: 0;
+    top: 45%;
+}
+
+.rotateRight{
+    transform: rotate(270deg);
+    position: absolute;
+    right: 0;
+    top: 45%;
+}
+
+.box{
+    background-color: #393939;
+    border-radius: 20px;
+}
+
+.approachBox{
+    height: 70%;
+}
+
+.h-60{
+    height: 60%;
+}
+
+.h-35{
+    height: 35%;
+}
+
+.hidden{
+    display: none ;
+}
+
+.navButton{
+    background: none;
+    border: none;
+    color: #D9C7A7;
+ 
+}
+
+.navButton:hover 
+{
+     text-decoration:none; 
+     cursor:pointer;  
+     color: inherit;
+}
+
